@@ -1,0 +1,16 @@
+# Ignore build artifacts
+.gradle/
+!build/libs/*.jar  # Allow only JAR files from build/libs/
+
+# Ignore IDE and system files
+.idea/
+.vscode/
+*.iml
+*.log
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore node_modules (if frontend exists)
+node_modules/
